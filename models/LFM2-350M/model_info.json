@@ -1,0 +1,15 @@
+{
+  "name": "LFM2-350M",
+  "repo_id": "LiquidAI/LFM2-350M",
+  "downloaded_files": [
+    "config.json",
+    "generation_config.json",
+    "model.safetensors",
+    "special_tokens_map.json",
+    "tokenizer.json",
+    "tokenizer_config.json"
+  ],
+  "failed_files": [],
+  "download_date": "C:\\Users\\Ry\\Desktop\\RAIN.CHAT",
+  "type": "transformers"
+}

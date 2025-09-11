@@ -1,0 +1,15 @@
+{
+  "name": "gemma-3-270m-it",
+  "repo_id": "google/gemma-3-270m-it",
+  "downloaded_files": [],
+  "failed_files": [
+    "config.json",
+    "tokenizer.json",
+    "tokenizer_config.json",
+    "special_tokens_map.json",
+    "model.safetensors",
+    "generation_config.json"
+  ],
+  "download_date": "C:\\Users\\Ry\\Desktop\\RAIN.CHAT",
+  "type": "unknown"
+}

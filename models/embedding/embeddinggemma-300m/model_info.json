@@ -1,0 +1,18 @@
+{
+  "name": "embeddinggemma-300m",
+  "repo_id": "google/embeddinggemma-300m",
+  "type": "embedding",
+  "framework": "sentence_transformers",
+  "dimension": 768,
+  "max_tokens": 2048,
+  "languages": 100,
+  "status": "ready_for_download",
+  "capabilities": [
+    "text_embedding",
+    "semantic_search",
+    "similarity",
+    "classification",
+    "clustering",
+    "retrieval"
+  ]
+}

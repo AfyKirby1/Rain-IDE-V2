@@ -1,0 +1,15 @@
+{
+  "name": "Qwen2.5-0.5B-Instruct-Gensyn-Swarm-tall_mammalian_caribou",
+  "repo_id": "infoipman/Qwen2.5-0.5B-Instruct-Gensyn-Swarm-tall_mammalian_caribou",
+  "downloaded_files": [
+    "config.json",
+    "generation_config.json",
+    "model.safetensors",
+    "special_tokens_map.json",
+    "tokenizer.json",
+    "tokenizer_config.json"
+  ],
+  "failed_files": [],
+  "download_date": "C:\\Users\\Ry\\Desktop\\RAIN.CHAT",
+  "type": "transformers"
+}

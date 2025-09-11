@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>RAIN.CHAT v2 - Professional AI IDE</title>
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        font-family: "JetBrains Mono", "Fira Code", "Consolas", monospace;
+        background-color: #0f172a;
+        color: #f1f5f9;
+        overflow: hidden;
+      }
+
+      #root {
+        height: 100vh;
+        width: 100vw;
+      }
+
+      /* Loading screen styles */
+      .loading-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        background: linear-gradient(135deg, #1e293b 0%, #0f172a 100%);
+      }
+
+      .loading-logo {
+        width: 120px;
+        height: 120px;
+        margin-bottom: 2rem;
+        animation: pulse 2s infinite;
+      }
+
+      .loading-text {
+        color: #64748b;
+        font-size: 14px;
+        margin-bottom: 1rem;
+      }
+
+      .loading-bar {
+        width: 300px;
+        height: 4px;
+        background-color: #1e293b;
+        border-radius: 2px;
+        overflow: hidden;
+      }
+
+      .loading-progress {
+        height: 100%;
+        background: linear-gradient(90deg, #3b82f6, #10b981);
+        border-radius: 2px;
+        animation: loading 1.5s ease-in-out infinite;
+      }
+
+      @keyframes pulse {
+        0%, 100% { opacity: 1; }
+        50% { opacity: 0.6; }
+      }
+
+      @keyframes loading {
+        0% { transform: translateX(-100%); }
+        100% { transform: translateX(400px); }
+      }
+    </style>
+  </head>
+  <body>
+    <div id="root">
+      <!-- Loading screen (will be replaced by React) -->
+      <div class="loading-container">
+        <div class="loading-logo">
+          <svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="50" cy="50" r="45" stroke="#3b82f6" stroke-width="4" fill="none"/>
+            <path d="M50 20 L65 40 L50 35 L35 40 Z" fill="#3b82f6"/>
+            <path d="M30 60 L70 60" stroke="#10b981" stroke-width="3"/>
+            <path d="M35 70 L65 70" stroke="#10b981" stroke-width="2"/>
+          </svg>
+        </div>
+        <div class="loading-text">Loading RAIN.CHAT v2...</div>
+        <div class="loading-bar">
+          <div class="loading-progress"></div>
+        </div>
+      </div>
+    </div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
+</html>
