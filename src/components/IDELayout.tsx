@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Box, Paper, IconButton, Tooltip, Fade, Slide } from '@mui/material';
+import { Box, Paper, IconButton, Tooltip, Slide } from '@mui/material';
 import {
   FolderOpen,
   Code,

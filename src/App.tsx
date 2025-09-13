@@ -6,7 +6,7 @@ import { listen } from '@tauri-apps/api/event';
 
 // Components
 import Workspace from './components/Workspace';
-import WelcomeScreen from './components/WelcomeScreen';
+// import WelcomeScreen from './components/WelcomeScreen';
 import StatusBar from './components/StatusBar';
 import TitleBar from './components/TitleBar';
 

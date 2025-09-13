@@ -38,7 +38,7 @@ interface FileNode {
 
 const FileExplorer: React.FC = () => {
   const { currentProject } = useProjectStore();
-  const { openFile, createFile, createUntitledFile } = useEditorStore();
+  const { openFile, createUntitledFile } = useEditorStore();
   const [fileTree, setFileTree] = useState<FileNode[]>([]);
   const [loading, setLoading] = useState(false);
   const [expandedNodes, setExpandedNodes] = useState<Set<string>>(new Set());

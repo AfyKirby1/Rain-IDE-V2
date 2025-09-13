@@ -11,6 +11,11 @@
     "tauri": "tauri",
     "tauri:dev": "tauri dev",
     "tauri:build": "tauri build",
+    "tauri:build:debug": "tauri build --debug",
+    "build:exe": "npm run build && npm run tauri:build",
+    "build:exe:debug": "npm run build && npm run tauri:build:debug",
+    "clean": "rimraf dist && rimraf src-tauri/target",
+    "clean:all": "rimraf node_modules dist src-tauri/target",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "lint:fix": "eslint . --ext ts,tsx --fix",
     "type-check": "tsc --noEmit"

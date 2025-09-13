@@ -4,18 +4,18 @@ import {
   Typography,
   IconButton,
   Tooltip,
-  TextField,
-  Chip,
+  // TextField,
+  // Chip,
 } from '@mui/material';
 import {
-  PlayArrow,
-  Stop,
+  // PlayArrow,
+  // Stop,
   Clear,
   Settings,
   Add,
   Close,
-  KeyboardArrowDown,
-  KeyboardArrowUp,
+  // KeyboardArrowDown,
+  // KeyboardArrowUp,
 } from '@mui/icons-material';
 
 interface TerminalSession {

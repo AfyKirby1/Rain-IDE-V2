@@ -2,14 +2,14 @@ import React, { useState, useEffect, useRef } from 'react';
 import { Box, Typography, IconButton, Tooltip, Chip, TextField } from '@mui/material';
 import { 
   PlayArrow, 
-  Stop, 
+  // Stop, 
   BugReport, 
   FormatListBulleted,
   Settings,
-  Fullscreen,
+  // Fullscreen,
   Close,
   Save,
-  SaveAlt
+  // SaveAlt
 } from '@mui/icons-material';
 import { useEditorStore } from '../stores/editorStore';
 

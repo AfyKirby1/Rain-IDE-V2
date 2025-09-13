@@ -22,7 +22,7 @@ interface ProjectState {
 
 export const useProjectStore = create<ProjectState>()(
   devtools(
-    (set, get) => ({
+    (set) => ({
       // Initial state
       currentProject: null,
       projects: [],
